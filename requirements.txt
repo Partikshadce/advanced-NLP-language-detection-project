@@ -1,0 +1,6 @@
+langdetect==1.0.9
+colorama==0.4.6
+matplotlib
+pandas
+pycountry
+plotly

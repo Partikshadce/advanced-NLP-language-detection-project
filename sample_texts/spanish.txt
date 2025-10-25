@@ -1,0 +1,5 @@
+El procesamiento del lenguaje natural es una rama de la inteligencia artificial que ayuda a las computadoras a entender, interpretar y manipular el lenguaje humano. El PLN se basa en muchas disciplinas, incluidas la informática y la lingüística computacional, en su búsqueda para llenar el vacío entre la comunicación humana y la comprensión informática.
+
+Las aplicaciones del procesamiento del lenguaje natural son numerosas. Desde la traducción automática hasta el análisis de sentimientos, pasando por los asistentes virtuales y los sistemas de reconocimiento de voz, el PLN está transformando la forma en que interactuamos con la tecnología.
+
+En la actualidad, el PLN utiliza técnicas de aprendizaje automático y aprendizaje profundo para mejorar continuamente su capacidad de comprender y generar lenguaje humano de manera más natural y precisa.
