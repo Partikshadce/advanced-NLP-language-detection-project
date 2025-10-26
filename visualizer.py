@@ -267,6 +267,25 @@ def demo():
     visualizer.plot_confidence_scores(list(set(languages)), [95.5, 88.3, 92.1, 87.9])
     
     print("\n✓ Demo visualizations created!")
+    from language_analyzer import LanguageAnalyzer
+import plotly.express as px
+
+def visualize_language_distribution(analyzer: LanguageAnalyzer):
+    """
+    Takes a LanguageAnalyzer object and returns a Plotly chart
+    showing language distribution or confidence scores.
+    """
+    # Example: get language distribution from analyzer
+    lang_data = analyzer.get_language_distribution()  # you might have a method like this
+    
+    # Create a simple Pie chart
+    fig = px.pie(
+        names=list(lang_data.keys()),
+        values=list(lang_data.values()),
+        title="Language Distribution"
+    )
+    return fig
+
 
 
 if __name__ == "__main__":
